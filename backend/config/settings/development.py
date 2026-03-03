@@ -5,7 +5,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 # allow all origins in dev to avoid demo-blocking CORS issues
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = False
 
 # in dev, fall back to sqlite if no postgres available
 if not DATABASES['default'].get('ENGINE'):
