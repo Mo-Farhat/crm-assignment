@@ -1,4 +1,4 @@
-# CRM Assessment - Production-Ready Multi-Tenant CRM
+# CRM Assessment 
 
 ## Key Engineering Pillars Followed
 
